@@ -21,7 +21,7 @@
 	</form>
 	
 	<?php
-		$s = [1,2,3,4,5];	
+		$s = [1,2,3,4,5];
 		$s = isset($s->aaa) ? 'fasle' : 'true';
 		
 		var_dump($s);
